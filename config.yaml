@@ -1,0 +1,15 @@
+project_name: Tfilat HaYalda - Hybrid Workflow
+paths:
+  assets: assets/assets.yaml
+  scenes_db: assets/scenes_db.json
+  shots_board: assets/shots_board.json
+  stills_prompts: prompts/stills
+  video_prompts: prompts/video
+  images_output: production/images
+  video_output: production/video
+models:
+  flux: fal-ai/flux-lora
+  kling: fal-ai/kling-video/v2.6/pro/image-to-video
+settings:
+  log_level: INFO
+  save_local_copies: true

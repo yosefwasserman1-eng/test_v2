@@ -1,0 +1,74 @@
+{
+    "SCENE_1_DEPARTURE": {
+        "description": "Interior Cottage. Dark room. Embers glowing in the fireplace. Miri lights the lantern from the last dying ember. Leaves home.",
+        "location_id": "MIRIS_COTTAGE_INTERIOR",
+        "wardrobe_id": "MIRI_WINTER_SHAWL",
+        "mood_keywords": [
+            "Intimate",
+            "Warmth vs Cold",
+            "Fireplace",
+            "Beginning"
+        ],
+        "music_segment": "Intro"
+    },
+    "SCENE_2_WIND": {
+        "description": "Forest Path. The wind picks up. Trees swaying. The flame flickers violently. Struggle begins.",
+        "location_id": "FOREST_WINDY_NIGHT",
+        "wardrobe_id": "MIRI_WINTER_SHAWL",
+        "mood_keywords": [
+            "Tense",
+            "Windy",
+            "Dynamic Shadows",
+            "Cold"
+        ],
+        "music_segment": "Verse 1"
+    },
+    "SCENE_3_CRISIS": {
+        "description": "Deep Forest. Heavy storm. Miri falls to the ground. The light is almost gone (dim red glow). Despair.",
+        "location_id": "FOREST_STORM_GROUND",
+        "wardrobe_id": "MIRI_DIRTY_MUD",
+        "mood_keywords": [
+            "Hopeless",
+            "Dark",
+            "Stormy",
+            "Low Angle"
+        ],
+        "music_segment": "Verse 2"
+    },
+    "SCENE_4_MIRACLE": {
+        "description": "Same spot. Miri praying over the lantern. The flame creates a warm, magical golden sphere around her.",
+        "location_id": "FOREST_STORM_GROUND",
+        "wardrobe_id": "MIRI_DIRTY_MUD",
+        "mood_keywords": [
+            "Magical",
+            "Golden Glow",
+            "Hope",
+            "Spiritual"
+        ],
+        "music_segment": "Chorus (Prayer)"
+    },
+    "SCENE_5_ASCENT": {
+        "description": "Mountain Path. Miri climbing up towards the synagogue. The lantern is bright and steady. She is strong.",
+        "location_id": "MOUNTAIN_PATH_NIGHT",
+        "wardrobe_id": "MIRI_WINTER_SHAWL",
+        "mood_keywords": [
+            "Determination",
+            "Contrast",
+            "Epic",
+            "Moving Up"
+        ],
+        "music_segment": "Bridge"
+    },
+    "SCENE_6_VICTORY": {
+        "description": "Old Synagogue Entrance / Hilltop. Miri holds the light high. It illuminates the whole valley. Storm breaks.",
+        "location_id": "SYNAGOGUE_ENTRANCE_NIGHT",
+        "wardrobe_id": "MIRI_GLOWING",
+        "mood_keywords": [
+            "Triumph",
+            "Bright Light",
+            "Peace",
+            "Majestic"
+        ],
+        "music_segment": "Finale"
+    }
+}

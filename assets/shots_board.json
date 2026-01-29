@@ -1,0 +1,1492 @@
+{
+    "SHOT_001": {
+        "scene_ref": "SCENE_1_DEPARTURE",
+        "duration": "5s",
+        "brief": {
+            "visual": "Close Up. Dark screen. Focus on dying red embers in a stone fireplace.",
+            "motion": "Static, heat shimmer."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "FIRE_GLOW"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_001.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_001.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_002": {
+        "scene_ref": "SCENE_1_DEPARTURE",
+        "duration": "5s",
+        "brief": {
+            "visual": "Medium Shot. Miri kneeling by the fireplace, holding an unlit lantern.",
+            "motion": "Side profile."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "FIRE_GLOW"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_002.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_002.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_003": {
+        "scene_ref": "SCENE_1_DEPARTURE",
+        "duration": "5s",
+        "brief": {
+            "visual": "Close Up. Taking a small stick, lighting it from the embers.",
+            "motion": "Hand movement."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "FIRE_GLOW"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_003.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_003.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_004": {
+        "scene_ref": "SCENE_1_DEPARTURE",
+        "duration": "5s",
+        "brief": {
+            "visual": "Close Up. Transferring the flame to the lantern wick. It ignites.",
+            "motion": "Light flares up."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "FIRE_GLOW"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_004.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_004.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_005": {
+        "scene_ref": "SCENE_1_DEPARTURE",
+        "duration": "5s",
+        "brief": {
+            "visual": "Medium Shot. Miri's face illuminated by the new warm light. She looks worried.",
+            "motion": "Static."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "FIRE_GLOW"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_005.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_005.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_006": {
+        "scene_ref": "SCENE_1_DEPARTURE",
+        "duration": "5s",
+        "brief": {
+            "visual": "Wide Shot. She stands up in the dark room, holding the only light.",
+            "motion": "Slow pull back."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "FIRE_GLOW"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_006.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_006.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_007": {
+        "scene_ref": "SCENE_1_DEPARTURE",
+        "duration": "5s",
+        "brief": {
+            "visual": "Close Up. Hand reaching for the door handle. Hesitation.",
+            "motion": "Focus on hand."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "FIRE_GLOW"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_007.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_007.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_008": {
+        "scene_ref": "SCENE_1_DEPARTURE",
+        "duration": "5s",
+        "brief": {
+            "visual": "Medium Shot. She opens the door. Wind blows in, flame flickers but stays.",
+            "motion": "Door opening motion."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "FIRE_GLOW"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_008.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_008.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_009": {
+        "scene_ref": "SCENE_1_DEPARTURE",
+        "duration": "5s",
+        "brief": {
+            "visual": "Over Shoulder. Miri stepping out into the cold blue night.",
+            "motion": "Tracking forward."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "FIRE_GLOW"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_009.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_009.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_010": {
+        "scene_ref": "SCENE_1_DEPARTURE",
+        "duration": "5s",
+        "brief": {
+            "visual": "Wide Shot. The cottage door closes. Miri is now a small light in the dark world.",
+            "motion": "Static wide."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "FIRE_GLOW"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_010.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_010.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_011": {
+        "scene_ref": "SCENE_2_WIND",
+        "duration": "5s",
+        "brief": {
+            "visual": "Wide Shot. Trees bending in the wind. Miri is a small light in chaos.",
+            "motion": "Handheld shake."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO",
+            "camera_movement_speed": "FAST",
+            "mood_color": "COLD_BLUE"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_011.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_011.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_012": {
+        "scene_ref": "SCENE_2_WIND",
+        "duration": "5s",
+        "brief": {
+            "visual": "Medium Shot. Wind blows her hair across her face, she struggles.",
+            "motion": "Tracking backward."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO",
+            "camera_movement_speed": "FAST",
+            "mood_color": "COLD_BLUE"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_012.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_012.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_013": {
+        "scene_ref": "SCENE_2_WIND",
+        "duration": "5s",
+        "brief": {
+            "visual": "Close Up. The flame flickering wildly inside the glass.",
+            "motion": "Macro shot."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO",
+            "camera_movement_speed": "FAST",
+            "mood_color": "COLD_BLUE"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_013.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_013.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_014": {
+        "scene_ref": "SCENE_2_WIND",
+        "duration": "5s",
+        "brief": {
+            "visual": "Medium Shot. She stumbles but keeps moving.",
+            "motion": "Low angle tracking."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO",
+            "camera_movement_speed": "FAST",
+            "mood_color": "COLD_BLUE"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_014.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_014.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_015": {
+        "scene_ref": "SCENE_2_WIND",
+        "duration": "5s",
+        "brief": {
+            "visual": "Close Up. Her hands gripping the handle tightly, knuckles white.",
+            "motion": "Static."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO",
+            "camera_movement_speed": "FAST",
+            "mood_color": "COLD_BLUE"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_015.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_015.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_016": {
+        "scene_ref": "SCENE_2_WIND",
+        "duration": "5s",
+        "brief": {
+            "visual": "Wide Shot. Shadows of trees dancing scary shapes on the ground.",
+            "motion": "High angle."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO",
+            "camera_movement_speed": "FAST",
+            "mood_color": "COLD_BLUE"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_016.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_016.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_017": {
+        "scene_ref": "SCENE_2_WIND",
+        "duration": "5s",
+        "brief": {
+            "visual": "Medium Shot. She shields the lantern with her whole body.",
+            "motion": "Orbit camera."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO",
+            "camera_movement_speed": "FAST",
+            "mood_color": "COLD_BLUE"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_017.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_017.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_018": {
+        "scene_ref": "SCENE_2_WIND",
+        "duration": "5s",
+        "brief": {
+            "visual": "Close Up. Fear in her eyes as a branch breaks nearby.",
+            "motion": "Quick zoom."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO",
+            "camera_movement_speed": "FAST",
+            "mood_color": "COLD_BLUE"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_018.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_018.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_019": {
+        "scene_ref": "SCENE_2_WIND",
+        "duration": "5s",
+        "brief": {
+            "visual": "Medium Shot. Walking against strong resistance (wind).",
+            "motion": "Slow motion struggle."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO",
+            "camera_movement_speed": "FAST",
+            "mood_color": "COLD_BLUE"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_019.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_019.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_020": {
+        "scene_ref": "SCENE_2_WIND",
+        "duration": "5s",
+        "brief": {
+            "visual": "Wide Shot. A massive gust of wind hits her.",
+            "motion": "Camera shake."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO",
+            "camera_movement_speed": "FAST",
+            "mood_color": "COLD_BLUE"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_020.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_020.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_021": {
+        "scene_ref": "SCENE_3_CRISIS",
+        "duration": "5s",
+        "brief": {
+            "visual": "Medium Shot. Miri falls to her knees in the mud.",
+            "motion": "Fast tilt down."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_021.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_021.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_022": {
+        "scene_ref": "SCENE_3_CRISIS",
+        "duration": "5s",
+        "brief": {
+            "visual": "Close Up. The lantern hits the ground (doesn't break, but dims).",
+            "motion": "Ground level."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_022.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_022.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_023": {
+        "scene_ref": "SCENE_3_CRISIS",
+        "duration": "5s",
+        "brief": {
+            "visual": "Wide Shot. Total darkness surrounding her, just a faint red glow.",
+            "motion": "High angle top down."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_023.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_023.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_024": {
+        "scene_ref": "SCENE_3_CRISIS",
+        "duration": "5s",
+        "brief": {
+            "visual": "Close Up. Miri's face dirty and crying, looking at the dying light.",
+            "motion": "Static."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_024.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_024.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_025": {
+        "scene_ref": "SCENE_3_CRISIS",
+        "duration": "5s",
+        "brief": {
+            "visual": "Medium Shot. She curls up around the lantern, giving up.",
+            "motion": "Slow pull back."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_025.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_025.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_026": {
+        "scene_ref": "SCENE_3_CRISIS",
+        "duration": "5s",
+        "brief": {
+            "visual": "Close Up. The flame is just a tiny spark now.",
+            "motion": "Macro."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_026.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_026.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_027": {
+        "scene_ref": "SCENE_3_CRISIS",
+        "duration": "5s",
+        "brief": {
+            "visual": "Wide Shot. Rain/Leaves falling heavily around her.",
+            "motion": "Atmospheric."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_027.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_027.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_028": {
+        "scene_ref": "SCENE_3_CRISIS",
+        "duration": "5s",
+        "brief": {
+            "visual": "Medium Shot. She buries her face in her hands.",
+            "motion": "Static."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_028.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_028.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_029": {
+        "scene_ref": "SCENE_3_CRISIS",
+        "duration": "5s",
+        "brief": {
+            "visual": "Close Up. Her lips moving in silent despair.",
+            "motion": "Focus on mouth."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_029.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_029.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_030": {
+        "scene_ref": "SCENE_3_CRISIS",
+        "duration": "5s",
+        "brief": {
+            "visual": "Wide Shot. She looks small and defeated.",
+            "motion": "Extreme wide."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_030.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_030.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_031": {
+        "scene_ref": "SCENE_4_MIRACLE",
+        "duration": "5s",
+        "brief": {
+            "visual": "Close Up. Miri starts whispering a prayer (Psalm).",
+            "motion": "Static."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "GOLDEN_GLOW",
+            "camera_movement_speed": "SLOW",
+            "eye_lock": "FIXED_ON_LIGHT"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_031.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_031.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_032": {
+        "scene_ref": "SCENE_4_MIRACLE",
+        "duration": "5s",
+        "brief": {
+            "visual": "Medium Shot. The spark inside the lantern suddenly stabilizes.",
+            "motion": "Light brightens."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "GOLDEN_GLOW",
+            "camera_movement_speed": "SLOW",
+            "eye_lock": "FIXED_ON_LIGHT"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_032.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_032.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_033": {
+        "scene_ref": "SCENE_4_MIRACLE",
+        "duration": "5s",
+        "brief": {
+            "visual": "Close Up. Miri's eyes open wide, seeing the light grow.",
+            "motion": "Slow push in."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "GOLDEN_GLOW",
+            "camera_movement_speed": "SLOW",
+            "eye_lock": "FIXED_ON_LIGHT"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_033.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_033.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_034": {
+        "scene_ref": "SCENE_4_MIRACLE",
+        "duration": "5s",
+        "brief": {
+            "visual": "Wide Shot. A golden warm sphere of light expands around her, pushing back the dark.",
+            "motion": "Magical transition."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "GOLDEN_GLOW",
+            "camera_movement_speed": "SLOW",
+            "eye_lock": "FIXED_ON_LIGHT"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_034.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_034.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_035": {
+        "scene_ref": "SCENE_4_MIRACLE",
+        "duration": "5s",
+        "brief": {
+            "visual": "Medium Shot. The rain seems to glow like gold around her.",
+            "motion": "Slow motion particles."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "GOLDEN_GLOW",
+            "camera_movement_speed": "SLOW",
+            "eye_lock": "FIXED_ON_LIGHT"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_035.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_035.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_036": {
+        "scene_ref": "SCENE_4_MIRACLE",
+        "duration": "5s",
+        "brief": {
+            "visual": "Close Up. A tear on her cheek shines like a diamond.",
+            "motion": "Macro."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "GOLDEN_GLOW",
+            "camera_movement_speed": "SLOW",
+            "eye_lock": "FIXED_ON_LIGHT"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_036.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_036.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_037": {
+        "scene_ref": "SCENE_4_MIRACLE",
+        "duration": "5s",
+        "brief": {
+            "visual": "Medium Shot. She lifts the lantern up, looking at it with awe.",
+            "motion": "Low angle."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "GOLDEN_GLOW",
+            "camera_movement_speed": "SLOW",
+            "eye_lock": "FIXED_ON_LIGHT"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_037.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_037.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_038": {
+        "scene_ref": "SCENE_4_MIRACLE",
+        "duration": "5s",
+        "brief": {
+            "visual": "Close Up. The flame is now strong and steady.",
+            "motion": "Focus on flame."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "GOLDEN_GLOW",
+            "camera_movement_speed": "SLOW",
+            "eye_lock": "FIXED_ON_LIGHT"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_038.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_038.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_039": {
+        "scene_ref": "SCENE_4_MIRACLE",
+        "duration": "5s",
+        "brief": {
+            "visual": "Wide Shot. She stands up slowly, bathed in golden light.",
+            "motion": "Rising camera."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "GOLDEN_GLOW",
+            "camera_movement_speed": "SLOW",
+            "eye_lock": "FIXED_ON_LIGHT"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_039.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_039.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_040": {
+        "scene_ref": "SCENE_4_MIRACLE",
+        "duration": "5s",
+        "brief": {
+            "visual": "Medium Shot. She looks forward, fear gone.",
+            "motion": "Dolly zoom."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "GOLDEN_GLOW",
+            "camera_movement_speed": "SLOW",
+            "eye_lock": "FIXED_ON_LIGHT"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_040.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_040.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_041": {
+        "scene_ref": "SCENE_5_ASCENT",
+        "duration": "5s",
+        "brief": {
+            "visual": "Wide Shot. Miri climbing a steep rocky path. The lantern lights the way clearly.",
+            "motion": "Tracking side."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_041.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_041.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_042": {
+        "scene_ref": "SCENE_5_ASCENT",
+        "duration": "5s",
+        "brief": {
+            "visual": "Medium Shot. Her dress flowing in the wind, but she stands firm.",
+            "motion": "Low angle."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_042.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_042.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_043": {
+        "scene_ref": "SCENE_5_ASCENT",
+        "duration": "5s",
+        "brief": {
+            "visual": "Close Up. Boots stepping firmly on the rocks.",
+            "motion": "Tracking ground."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_043.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_043.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_044": {
+        "scene_ref": "SCENE_5_ASCENT",
+        "duration": "5s",
+        "brief": {
+            "visual": "Wide Shot. The destination (Synagogue/Hilltop) visible in distance.",
+            "motion": "POV."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_044.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_044.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_045": {
+        "scene_ref": "SCENE_5_ASCENT",
+        "duration": "5s",
+        "brief": {
+            "visual": "Medium Shot. She climbs faster, almost running.",
+            "motion": "Handheld energy."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_045.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_045.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_046": {
+        "scene_ref": "SCENE_5_ASCENT",
+        "duration": "5s",
+        "brief": {
+            "visual": "Close Up. Profile view, determined expression, rim lighting.",
+            "motion": "Tracking."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_046.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_046.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_047": {
+        "scene_ref": "SCENE_5_ASCENT",
+        "duration": "5s",
+        "brief": {
+            "visual": "Wide Shot. Crossing a small bridge/gap.",
+            "motion": "Crane shot."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_047.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_047.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_048": {
+        "scene_ref": "SCENE_5_ASCENT",
+        "duration": "5s",
+        "brief": {
+            "visual": "Medium Shot. The wind blows but the flame doesn't flicker.",
+            "motion": "Steadycam."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_048.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_048.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_049": {
+        "scene_ref": "SCENE_5_ASCENT",
+        "duration": "5s",
+        "brief": {
+            "visual": "Close Up. Smiling as she sees the gate.",
+            "motion": "Push in."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_049.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_049.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_050": {
+        "scene_ref": "SCENE_5_ASCENT",
+        "duration": "5s",
+        "brief": {
+            "visual": "Wide Shot. Reaching the top platform.",
+            "motion": "Static majestic."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_050.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_050.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_051": {
+        "scene_ref": "SCENE_6_VICTORY",
+        "duration": "5s",
+        "brief": {
+            "visual": "Wide Shot. Standing at the highest point. Storm clouds breaking apart.",
+            "motion": "Epic wide."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO",
+            "framing_limit": "FULL_BODY"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_051.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_051.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_052": {
+        "scene_ref": "SCENE_6_VICTORY",
+        "duration": "5s",
+        "brief": {
+            "visual": "Medium Shot. She raises the lantern high above her head.",
+            "motion": "Low angle hero shot."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO",
+            "framing_limit": "FULL_BODY"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_052.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_052.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_053": {
+        "scene_ref": "SCENE_6_VICTORY",
+        "duration": "5s",
+        "brief": {
+            "visual": "Close Up. The light flares into the camera lens.",
+            "motion": "Lens flare."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO",
+            "framing_limit": "FULL_BODY"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_053.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_053.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_054": {
+        "scene_ref": "SCENE_6_VICTORY",
+        "duration": "5s",
+        "brief": {
+            "visual": "Wide Shot. The light spreads across the valley below.",
+            "motion": "Aerial view."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO",
+            "framing_limit": "FULL_BODY"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_054.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_054.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_055": {
+        "scene_ref": "SCENE_6_VICTORY",
+        "duration": "5s",
+        "brief": {
+            "visual": "Medium Shot. Windows in the village below start lighting up in response.",
+            "motion": "Tilt down."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO",
+            "framing_limit": "FULL_BODY"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_055.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_055.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_056": {
+        "scene_ref": "SCENE_6_VICTORY",
+        "duration": "5s",
+        "brief": {
+            "visual": "Close Up. Miri breathing in relief, closing her eyes.",
+            "motion": "Soft focus."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO",
+            "framing_limit": "FULL_BODY"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_056.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_056.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_057": {
+        "scene_ref": "SCENE_6_VICTORY",
+        "duration": "5s",
+        "brief": {
+            "visual": "Wide Shot. The sky turns from black to deep blue (pre-dawn).",
+            "motion": "Time lapse feel."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO",
+            "framing_limit": "FULL_BODY"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_057.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_057.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_058": {
+        "scene_ref": "SCENE_6_VICTORY",
+        "duration": "5s",
+        "brief": {
+            "visual": "Medium Shot. She hugs the lantern to her chest, smiling.",
+            "motion": "Static."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO",
+            "framing_limit": "FULL_BODY"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_058.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_058.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_059": {
+        "scene_ref": "SCENE_6_VICTORY",
+        "duration": "5s",
+        "brief": {
+            "visual": "Close Up. Looking up at the first star/morning star.",
+            "motion": "Looking up."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO",
+            "framing_limit": "FULL_BODY"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_059.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_059.txt",
+            "video_path": "",
+            "version": 0
+        }
+    },
+    "SHOT_060": {
+        "scene_ref": "SCENE_6_VICTORY",
+        "duration": "5s",
+        "brief": {
+            "visual": "Wide Shot. Fade out on the light of the lantern.",
+            "motion": "Fade to black/white."
+        },
+        "constraints": {
+            "avoid_occlusion": true,
+            "lighting_type": "CHIAROSCURO",
+            "framing_limit": "FULL_BODY"
+        },
+        "stills": {
+            "status": "PENDING",
+            "prompt_file": "prompts/stills/shot_060.txt",
+            "image_path": "",
+            "version": 0
+        },
+        "video": {
+            "status": "PENDING",
+            "prompt_file": "prompts/video/shot_060.txt",
+            "video_path": "",
+            "version": 0
+        }
+    }
+}

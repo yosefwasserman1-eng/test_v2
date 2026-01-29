@@ -1,0 +1,32 @@
+# --- לוקיישנים (Locations) ---
+locations:
+  MIRIS_COTTAGE_INTERIOR:
+    description: "Small rustic room, stone walls, dying embers in a large fireplace, wooden table, simple furniture, dark atmosphere, 19th century eastern europe cottage."
+  
+  FOREST_WINDY_NIGHT:
+    description: "Dark forest path, tall pine trees swaying violently in the wind, mist on the ground, blue moonlight struggling through heavy clouds."
+  
+  FOREST_STORM_GROUND:
+    description: "Muddy forest floor, wet leaves, rain falling heavily, very dark, low angle view of roots and mud, cinematic lighting."
+  
+  MOUNTAIN_PATH_NIGHT:
+    description: "Steep rocky path on a mountainside, jagged rocks, wind blowing, dramatic view of dark valley below, dangerous atmosphere."
+  
+  SYNAGOGUE_ENTRANCE_NIGHT:
+    description: "Ancient wooden synagogue door, weathered wood texture, stone steps leading up, high altitude, imposing structure, star of david symbol faint."
+
+# --- מלתחה (Wardrobe) ---
+# הערה: העששית (Lantern) הוכנסה לכאן כדי להבטיח עקביות
+
+  MIRI_WINTER_SHAWL:
+    description: "Miri wearing a thick wool shawl wrapped tight around shoulders, simple peasant dress underneath. She is holding a distinctive rusted iron lantern with a glass pane (early 19th century style), creating a warm glow."
+  
+  MIRI_DIRTY_MUD:
+    description: "Miri's dress is muddy at the hem, wet fabric clinging to body, shawl disheveled, hair wet from rain. She clutches the same rusted iron lantern protectiveley."
+  
+  MIRI_GLOWING:
+    description: "Miri illuminated by warm golden light, face clean and radiant, dress looks dry and bright, heroic stance. Holding the iron lantern high, now burning with a strong magical flame."
+
+# --- הגדרות מודל (Models) ---
+lora_url: "https://v3.fal.media/files/monkey/my_trained_miri.safetensors" # וודא שזה ה-URL הנכון שלך!
+face_reference_path: "assets/miri_face_ref.jpg"

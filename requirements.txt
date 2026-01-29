@@ -1,0 +1,9 @@
+anthropic
+google-generativeai
+fal-client
+python-dotenv
+pyyaml
+requests
+tqdm
+colorama
+streamlit
