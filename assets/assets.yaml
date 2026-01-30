@@ -20,6 +20,8 @@ locations:
     description: Ancient wooden synagogue door, weathered wood texture, stone steps
       leading up, high altitude, imposing structure, star of david symbol faint.
     is_optimized: true
+
+wardrobe:
   MIRI_WINTER_SHAWL:
     description: Miri wearing a thick wool shawl wrapped tight around shoulders, simple
       peasant dress underneath. She is holding a distinctive rusted iron lantern with
@@ -34,5 +36,6 @@ locations:
       looks dry and bright, heroic stance. Holding the iron lantern high, now burning
       with a strong magical flame.
     is_optimized: true
+
 lora_url: https://v3.fal.media/files/monkey/my_trained_miri.safetensors
 face_reference_path: assets/miri_face_ref.jpg
