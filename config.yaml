@@ -8,6 +8,7 @@ paths:
   images_output: production/images
   video_output: production/video
 models:
+  claude: "claude-sonnet-4-5-20250929"
   flux: fal-ai/flux-lora
   kling: fal-ai/kling-video/v2.6/pro/image-to-video
 settings:
