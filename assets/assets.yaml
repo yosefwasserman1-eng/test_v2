@@ -1,32 +1,38 @@
-# --- לוקיישנים (Locations) ---
 locations:
   MIRIS_COTTAGE_INTERIOR:
-    description: "Small rustic room, stone walls, dying embers in a large fireplace, wooden table, simple furniture, dark atmosphere, 19th century eastern europe cottage."
-  
+    description: Small rustic room, stone walls, dying embers in a large fireplace,
+      wooden table, simple furniture, dark atmosphere, 19th century eastern europe
+      cottage.
+    is_optimized: true
   FOREST_WINDY_NIGHT:
-    description: "Dark forest path, tall pine trees swaying violently in the wind, mist on the ground, blue moonlight struggling through heavy clouds."
-  
+    description: Dark forest path, tall pine trees swaying violently in the wind,
+      mist on the ground, blue moonlight struggling through heavy clouds.
+    is_optimized: true
   FOREST_STORM_GROUND:
-    description: "Muddy forest floor, wet leaves, rain falling heavily, very dark, low angle view of roots and mud, cinematic lighting."
-  
+    description: Muddy forest floor, wet leaves, rain falling heavily, very dark,
+      low angle view of roots and mud, cinematic lighting.
+    is_optimized: true
   MOUNTAIN_PATH_NIGHT:
-    description: "Steep rocky path on a mountainside, jagged rocks, wind blowing, dramatic view of dark valley below, dangerous atmosphere."
-  
+    description: Steep rocky path on a mountainside, jagged rocks, wind blowing, dramatic
+      view of dark valley below, dangerous atmosphere.
+    is_optimized: true
   SYNAGOGUE_ENTRANCE_NIGHT:
-    description: "Ancient wooden synagogue door, weathered wood texture, stone steps leading up, high altitude, imposing structure, star of david symbol faint."
-
-# --- מלתחה (Wardrobe) ---
-# הערה: העששית (Lantern) הוכנסה לכאן כדי להבטיח עקביות
-
+    description: Ancient wooden synagogue door, weathered wood texture, stone steps
+      leading up, high altitude, imposing structure, star of david symbol faint.
+    is_optimized: true
   MIRI_WINTER_SHAWL:
-    description: "Miri wearing a thick wool shawl wrapped tight around shoulders, simple peasant dress underneath. She is holding a distinctive rusted iron lantern with a glass pane (early 19th century style), creating a warm glow."
-  
+    description: Miri wearing a thick wool shawl wrapped tight around shoulders, simple
+      peasant dress underneath. She is holding a distinctive rusted iron lantern with
+      a glass pane (early 19th century style), creating a warm glow.
+    is_optimized: true
   MIRI_DIRTY_MUD:
-    description: "Miri's dress is muddy at the hem, wet fabric clinging to body, shawl disheveled, hair wet from rain. She clutches the same rusted iron lantern protectiveley."
-  
+    description: Miri's dress is muddy at the hem, wet fabric clinging to body, shawl
+      disheveled, hair wet from rain. She clutches the same rusted iron lantern protectiveley.
+    is_optimized: true
   MIRI_GLOWING:
-    description: "Miri illuminated by warm golden light, face clean and radiant, dress looks dry and bright, heroic stance. Holding the iron lantern high, now burning with a strong magical flame."
-
-# --- הגדרות מודל (Models) ---
-lora_url: "https://v3.fal.media/files/monkey/my_trained_miri.safetensors" # וודא שזה ה-URL הנכון שלך!
-face_reference_path: "assets/miri_face_ref.jpg"
+    description: Miri illuminated by warm golden light, face clean and radiant, dress
+      looks dry and bright, heroic stance. Holding the iron lantern high, now burning
+      with a strong magical flame.
+    is_optimized: true
+lora_url: https://v3.fal.media/files/monkey/my_trained_miri.safetensors
+face_reference_path: assets/miri_face_ref.jpg
