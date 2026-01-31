@@ -556,10 +556,11 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_022.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
         "video": {
             "status": "PENDING",
@@ -580,10 +581,11 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_023.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
         "video": {
             "status": "PENDING",
@@ -604,10 +606,11 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_024.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
         "video": {
             "status": "PENDING",
@@ -628,10 +631,11 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_025.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
         "video": {
             "status": "PENDING",
@@ -652,10 +656,11 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_026.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
         "video": {
             "status": "PENDING",
@@ -676,10 +681,11 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_027.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",
@@ -700,10 +706,11 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_028.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",
@@ -724,10 +731,11 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_029.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",
@@ -748,10 +756,11 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_030.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",
@@ -774,10 +783,11 @@
             "eye_lock": "FIXED_ON_LIGHT"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_031.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",
@@ -800,10 +810,11 @@
             "eye_lock": "FIXED_ON_LIGHT"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_032.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",
@@ -826,10 +837,11 @@
             "eye_lock": "FIXED_ON_LIGHT"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_033.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",
@@ -852,10 +864,11 @@
             "eye_lock": "FIXED_ON_LIGHT"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_034.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",
@@ -878,10 +891,11 @@
             "eye_lock": "FIXED_ON_LIGHT"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_035.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",
@@ -904,10 +918,11 @@
             "eye_lock": "FIXED_ON_LIGHT"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_036.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",
@@ -930,10 +945,11 @@
             "eye_lock": "FIXED_ON_LIGHT"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_037.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",
@@ -956,10 +972,11 @@
             "eye_lock": "FIXED_ON_LIGHT"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_038.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",
@@ -982,10 +999,11 @@
             "eye_lock": "FIXED_ON_LIGHT"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_039.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",
@@ -1008,10 +1026,11 @@
             "eye_lock": "FIXED_ON_LIGHT"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_040.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",
@@ -1032,10 +1051,11 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_041.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",
@@ -1056,10 +1076,11 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_042.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",
@@ -1080,10 +1101,11 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_043.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",
@@ -1104,10 +1126,11 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_044.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",
@@ -1128,10 +1151,11 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_045.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",
@@ -1152,10 +1176,11 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_046.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",
@@ -1200,10 +1225,11 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_048.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",
@@ -1224,10 +1250,11 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_049.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",
@@ -1248,10 +1275,11 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_050.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",
@@ -1273,10 +1301,11 @@
             "framing_limit": "FULL_BODY"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_051.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",
@@ -1298,10 +1327,11 @@
             "framing_limit": "FULL_BODY"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_052.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",
@@ -1323,10 +1353,11 @@
             "framing_limit": "FULL_BODY"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_053.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",
@@ -1348,10 +1379,11 @@
             "framing_limit": "FULL_BODY"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_054.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",
@@ -1373,10 +1405,11 @@
             "framing_limit": "FULL_BODY"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_055.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",
@@ -1398,10 +1431,11 @@
             "framing_limit": "FULL_BODY"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_056.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",
@@ -1423,10 +1457,11 @@
             "framing_limit": "FULL_BODY"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_057.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",
@@ -1448,10 +1483,11 @@
             "framing_limit": "FULL_BODY"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_058.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",
@@ -1473,10 +1509,11 @@
             "framing_limit": "FULL_BODY"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_059.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",
@@ -1498,10 +1535,11 @@
             "framing_limit": "FULL_BODY"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_060.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",

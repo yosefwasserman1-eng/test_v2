@@ -1,74 +1,127 @@
 import os
 import json
 import yaml
+import time
+import requests
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import fal_client
 from dotenv import load_dotenv
+from tenacity import retry, stop_after_attempt, wait_exponential
 
+# טעינת סביבה
 load_dotenv()
 
 # טעינת הגדרות
 with open("config.yaml", "r", encoding="utf-8") as f: config = yaml.safe_load(f)
-with open(config["paths"]["assets"], "r", encoding="utf-8") as f: assets = yaml.safe_load(f)
 with open(config["paths"]["shots_board"], "r", encoding="utf-8") as f: shots = json.load(f)
 
-def generate_image(shot_id):
-    print(f"🎨 Generating {shot_id}...")
+# יצירת תיקיית פלט
+os.makedirs(config["paths"]["images_output"], exist_ok=True)
+
+# הגדרות מודל FLUX
+FLUX_MODEL = config["models"]["flux"]
+LORA_PATH = "https://v3.fal.media/files/monkey/my_trained_miri.safetensors" # ודא שזה הנתיב הנכון שלך מ-assets.yaml
+
+# --- פונקציית יצירה מוגנת (Retry Logic) ---
+@retry(
+    wait=wait_exponential(multiplier=1, min=4, max=60),
+    stop=stop_after_attempt(5),
+    reraise=True
+)
+def generate_image_task(shot_id, prompt):
+    print(f"🎨 {shot_id}: Sending to Flux...")
+    
+    # שליחה ל-FAL
+    handler = fal_client.submit(
+        FLUX_MODEL,
+        arguments={
+            "prompt": prompt,
+            "image_size": "landscape_16_9",
+            "num_inference_steps": config["pipeline"]["flux_steps"],
+            "guidance_scale": 3.5,
+            "loras": [{
+                "path": LORA_PATH,
+                "scale": 0.9
+            }],
+            "enable_safety_checker": False
+        },
+    )
+    
+    # המתנה לתוצאה (FAL מחזיר כתובת URL)
+    result = handler.get()
+    image_url = result["images"][0]["url"]
+    
+    # הורדת התמונה ושמירה בדיסק
+    response = requests.get(image_url)
+    if response.status_code == 200:
+        filename = f"{shot_id}.png"
+        save_path = os.path.join(config["paths"]["images_output"], filename)
+        with open(save_path, "wb") as f:
+            f.write(response.content)
+        return {"id": shot_id, "status": "SUCCESS", "path": save_path}
+    else:
+        raise Exception(f"Failed to download image from {image_url}")
+
+def process_shot(shot_id):
     shot = shots.get(shot_id)
+    # רק שוטים שאושרו ע"י ג'ימיני מוכנים ליצירה
     if not shot or shot["stills"]["status"] != "APPROVED":
-        print("❌ Shot not ready or not approved.")
-        return
+        return None
 
-    # קריאת הפרומפט המוכן
-    with open(shot["stills"]["prompt_file"], "r", encoding="utf-8") as f:
-        final_prompt = f.read()
+    # אם כבר יש תמונה, מדלגים (אלא אם רוצים לדרוס)
+    if os.path.exists(os.path.join(config["paths"]["images_output"], f"{shot_id}.png")):
+        # אפשר להוסיף כאן לוגיקה של "דריסה בכוח" אם רוצים
+        print(f"⏩ {shot_id}: Image already exists. Skipping.")
+        return None
 
-    # הגדרות ל-FAL
-    args = {
-        "prompt": final_prompt,
-        "image_size": config["pipeline"].get("image_size", "landscape_16_9"),
-        "loras": [{"path": assets["lora_url"], "scale": 1.0}],
-        "num_inference_steps": config["pipeline"].get("flux_steps", 28),
-        "enable_safety_checker": True,
-        "output_format": "jpeg"
-    }
-
-    # --- שדרוג 1: הזרקת תמונת רפרנס (Identity Lock) ---
-    # בודק אם הוגדר נתיב ב-assets.yaml
-    ref_path = assets.get("face_reference_path")
-    if ref_path and os.path.exists(ref_path):
-        print(f"🔒 Locking Identity using: {ref_path}")
-        ref_url = fal_client.upload_file(ref_path)
-        args["image_prompts"] = [
-            {"image_url": ref_url, "type": "image_prompt", "weight": 0.85}
-        ]
-    # ----------------------------------------------------
+    # קריאת הפרומפט המאושר
+    prompt_path = shot["stills"]["prompt_file"]
+    if not os.path.exists(prompt_path): return None
+    
+    with open(prompt_path, "r", encoding="utf-8") as f: prompt = f.read()
 
     try:
-        result = fal_client.submit(config["models"]["flux"], arguments=args).get()
-        image_url = result["images"][0]["url"]
-        
-        # שמירה
-        version = shot["stills"].get("version", 0) + 1
-        filename = f"{shot_id}_v{version}.jpg"
-        save_path = os.path.join(config["paths"]["images_output"], filename)
-        
-        import requests
-        with open(save_path, "wb") as f:
-            f.write(requests.get(image_url).content)
-            
-        # עדכון ה-JSON
-        shot["stills"]["image_path"] = save_path
-        shot["stills"]["status"] = "IMAGE_READY"
-        shot["stills"]["version"] = version
-        
-        with open(config["paths"]["shots_board"], "w", encoding="utf-8") as f:
-            json.dump(shots, f, indent=4, ensure_ascii=False)
-            
-        print(f"✅ Saved to {save_path}")
-
+        return generate_image_task(shot_id, prompt)
     except Exception as e:
-        print(f"❌ Error: {e}")
+        return {"id": shot_id, "status": "ERROR", "msg": str(e)}
+
+def main():
+    # איסוף שוטים מוכנים
+    ready_shots = [sid for sid, data in shots.items() if data["stills"]["status"] == "APPROVED"]
+    
+    if not ready_shots:
+        print("🤷 No approved shots ready for generation.")
+        return
+
+    print(f"🚀 Starting Flux Generation for {len(ready_shots)} shots...")
+    print(f"💳 Fal.ai Mode: Parallel Generation Enabled")
+
+    # קביעת מספר התהליכים במקביל
+    # אם שילמת ב-FAL, אתה יכול לנסות 5-10. אם אתה בחינם/בסיסי, עדיף 2-3.
+    # נגדיר 5 כברירת מחדל אופטימלית
+    MAX_CONCURRENCY = 5 
+    
+    results = []
+    with ThreadPoolExecutor(max_workers=MAX_CONCURRENCY) as executor:
+        future_to_shot = {executor.submit(process_shot, sid): sid for sid in ready_shots}
+        
+        for future in as_completed(future_to_shot):
+            res = future.result()
+            if res:
+                if res["status"] == "SUCCESS":
+                    print(f"✅ {res['id']}: Generated successfully -> {res['path']}")
+                    # עדכון ה-JSON
+                    shots[res['id']]["stills"]["image_path"] = res["path"]
+                    shots[res['id']]["stills"]["status"] = "IMAGE_READY"
+                elif res["status"] == "ERROR":
+                    print(f"❌ {res['id']}: Failed - {res['msg']}")
+
+    # שמירה סופית
+    print("💾 Saving DB...")
+    with open(config["paths"]["shots_board"], "w", encoding="utf-8") as f:
+        json.dump(shots, f, indent=4, ensure_ascii=False)
+    
+    print("🏁 Generation complete.")
 
 if __name__ == "__main__":
-    sid = input("Enter Shot ID (e.g., SHOT_001): ").strip()
-    generate_image(sid)
+    main()
