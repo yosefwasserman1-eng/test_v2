@@ -5,3 +5,4 @@ production/
 *.mp4
 *.jpg
 *.png
+failures_to_analyze/

@@ -11,11 +11,12 @@
             "lighting_type": "FIRE_GLOW"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "REJECTED",
             "prompt_file": "prompts/stills/shot_001.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_001.jpg",
             "version": 0,
-            "inspector_feedback": "Checked by gemini-3-flash-preview"
+            "inspector_feedback": "Checked by gemini-3-flash-preview",
+            "feedback": "לא רואים פה את מירי (אולי מבחינת הסיפור זה הגיוני, אבל אם בהמשך השוט הזה מירי אמורה \nלהופיע אז\n Kling\n לא ידע איך היא נראת)"
         },
         "video": {
             "status": "PENDING",
@@ -38,12 +39,12 @@
         "stills": {
             "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_002.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_002.jpg",
             "version": 0,
             "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
         "video": {
-            "status": "PENDING",
+            "status": "READY_FOR_PROMPT",
             "prompt_file": "prompts/video/shot_002.txt",
             "video_path": "",
             "version": 0
@@ -61,11 +62,12 @@
             "lighting_type": "FIRE_GLOW"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "REJECTED",
             "prompt_file": "prompts/stills/shot_003.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_003.jpg",
             "version": 0,
-            "inspector_feedback": "Checked by gemini-3-flash-preview"
+            "inspector_feedback": "Checked by gemini-3-flash-preview",
+            "feedback": "גם כאן, לא רואים את הפנים של מירי, ואם בהמשך השוט אמורים לראות את הפנים שלה תהיה את אותה בעיה כמו בשוט 1"
         },
         "video": {
             "status": "PENDING",
@@ -86,11 +88,12 @@
             "lighting_type": "FIRE_GLOW"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "REJECTED",
             "prompt_file": "prompts/stills/shot_004.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_004.jpg",
             "version": 0,
-            "inspector_feedback": "Checked by gemini-3-flash-preview"
+            "inspector_feedback": "Checked by gemini-3-flash-preview",
+            "feedback": "גם כאן, לא רואים את הפנים של מירי, ואם בהמשך השוט אמורים לראות את הפנים שלה תהיה את אותה בעיה כמו בשוט 1"
         },
         "video": {
             "status": "PENDING",
@@ -113,12 +116,12 @@
         "stills": {
             "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_005.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_005.jpg",
             "version": 0,
             "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
         "video": {
-            "status": "PENDING",
+            "status": "READY_FOR_PROMPT",
             "prompt_file": "prompts/video/shot_005.txt",
             "video_path": "",
             "version": 0
@@ -136,11 +139,12 @@
             "lighting_type": "FIRE_GLOW"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "REJECTED",
             "prompt_file": "prompts/stills/shot_006.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_006.jpg",
             "version": 0,
-            "inspector_feedback": "Checked by gemini-3-flash-preview"
+            "inspector_feedback": "Checked by gemini-3-flash-preview",
+            "feedback": "היא נראת קצת \"מרחפת\" על הכיסא השאלה היא איך הוידאו יתמודד עם זה"
         },
         "video": {
             "status": "PENDING",
@@ -161,11 +165,12 @@
             "lighting_type": "FIRE_GLOW"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "REJECTED",
             "prompt_file": "prompts/stills/shot_007.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_007.jpg",
             "version": 0,
-            "inspector_feedback": "Checked by gemini-3-flash-preview"
+            "inspector_feedback": "Checked by gemini-3-flash-preview",
+            "feedback": "גם כאן לא רואים את מירי (אותה בעיה כמו שוט 1)"
         },
         "video": {
             "status": "PENDING",
@@ -186,9 +191,9 @@
             "lighting_type": "FIRE_GLOW"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_008.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_008.jpg",
             "version": 0,
             "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
@@ -211,9 +216,9 @@
             "lighting_type": "FIRE_GLOW"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_009.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_009.jpg",
             "version": 0,
             "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
@@ -236,9 +241,9 @@
             "lighting_type": "FIRE_GLOW"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_010.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_010.jpg",
             "version": 0,
             "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
@@ -263,9 +268,9 @@
             "mood_color": "COLD_BLUE"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_011.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_011.jpg",
             "version": 0,
             "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
@@ -290,9 +295,9 @@
             "mood_color": "COLD_BLUE"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_012.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_012.jpg",
             "version": 0,
             "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
@@ -317,9 +322,9 @@
             "mood_color": "COLD_BLUE"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_013.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_013.jpg",
             "version": 0,
             "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
@@ -344,9 +349,9 @@
             "mood_color": "COLD_BLUE"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_014.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_014.jpg",
             "version": 0,
             "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
@@ -371,9 +376,9 @@
             "mood_color": "COLD_BLUE"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_015.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_015.jpg",
             "version": 0,
             "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
@@ -1201,10 +1206,11 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_047.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by GenAI (Parallel)"
         },
         "video": {
             "status": "PENDING",

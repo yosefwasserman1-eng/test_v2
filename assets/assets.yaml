@@ -37,5 +37,5 @@ wardrobe:
       with a strong magical flame.
     is_optimized: true
 
-lora_url: https://v3.fal.media/files/monkey/my_trained_miri.safetensors
+lora_url: "https://v3b.fal.media/files/b/0a8a4202/sncujK6U_1tXMOxqLvTsB_pytorch_lora_weights.safetensors"
 face_reference_path: assets/miri_face_ref.jpg
