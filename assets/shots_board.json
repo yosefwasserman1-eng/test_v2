@@ -61,10 +61,11 @@
             "lighting_type": "FIRE_GLOW"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_003.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
         "video": {
             "status": "PENDING",
@@ -370,10 +371,11 @@
             "mood_color": "COLD_BLUE"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_015.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
         "video": {
             "status": "PENDING",

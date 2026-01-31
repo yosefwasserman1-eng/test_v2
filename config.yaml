@@ -12,7 +12,7 @@ pipeline:
   flux_steps: 28
 models:
   claude: "claude-sonnet-4-5-20250929"
-  gemini: "gemini-1.5-flash"
+  gemini: "gemini-3-flash-preview"
   flux: fal-ai/flux-lora
   kling: fal-ai/kling-video/v2.6/pro/image-to-video
 settings:

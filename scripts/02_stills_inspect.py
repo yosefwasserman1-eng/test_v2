@@ -121,9 +121,6 @@ if __name__ == "__main__":
             if data["stills"]["status"] == "PROMPT_READY":
                 inspect_prompt(sid)
                 count += 1
-                # המתנה מנומסת בין בקשות כדי לא להרגיז את ה-API
-                print("⏳ Cooling down for 5 seconds...")
-                time.sleep(5)
         
         if count == 0:
             print("🎉 No prompts waiting for inspection.")
