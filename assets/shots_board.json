@@ -11,10 +11,11 @@
             "lighting_type": "FIRE_GLOW"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_001.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
         "video": {
             "status": "PENDING",
@@ -35,10 +36,11 @@
             "lighting_type": "FIRE_GLOW"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_002.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
         "video": {
             "status": "PENDING",
@@ -83,10 +85,11 @@
             "lighting_type": "FIRE_GLOW"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_004.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
         "video": {
             "status": "PENDING",
@@ -107,10 +110,11 @@
             "lighting_type": "FIRE_GLOW"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_005.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
         "video": {
             "status": "PENDING",
@@ -131,10 +135,11 @@
             "lighting_type": "FIRE_GLOW"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_006.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
         "video": {
             "status": "PENDING",
@@ -155,10 +160,11 @@
             "lighting_type": "FIRE_GLOW"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_007.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
         "video": {
             "status": "PENDING",
@@ -179,10 +185,11 @@
             "lighting_type": "FIRE_GLOW"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_008.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
         "video": {
             "status": "PENDING",
@@ -203,10 +210,11 @@
             "lighting_type": "FIRE_GLOW"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_009.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
         "video": {
             "status": "PENDING",
@@ -227,10 +235,11 @@
             "lighting_type": "FIRE_GLOW"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_010.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
         "video": {
             "status": "PENDING",
@@ -253,10 +262,11 @@
             "mood_color": "COLD_BLUE"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_011.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
         "video": {
             "status": "PENDING",
@@ -279,10 +289,11 @@
             "mood_color": "COLD_BLUE"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_012.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
         "video": {
             "status": "PENDING",
@@ -305,10 +316,11 @@
             "mood_color": "COLD_BLUE"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_013.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
         "video": {
             "status": "PENDING",
@@ -331,10 +343,11 @@
             "mood_color": "COLD_BLUE"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_014.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
         "video": {
             "status": "PENDING",
@@ -383,10 +396,11 @@
             "mood_color": "COLD_BLUE"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_016.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
         "video": {
             "status": "PENDING",
@@ -409,10 +423,11 @@
             "mood_color": "COLD_BLUE"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_017.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
         "video": {
             "status": "PENDING",
@@ -435,10 +450,11 @@
             "mood_color": "COLD_BLUE"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_018.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
         "video": {
             "status": "PENDING",
@@ -461,10 +477,11 @@
             "mood_color": "COLD_BLUE"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_019.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
         "video": {
             "status": "PENDING",
@@ -487,10 +504,11 @@
             "mood_color": "COLD_BLUE"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_020.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
         "video": {
             "status": "PENDING",
@@ -511,10 +529,11 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "PROMPT_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_021.txt",
             "image_path": "",
-            "version": 0
+            "version": 0,
+            "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
         "video": {
             "status": "PENDING",

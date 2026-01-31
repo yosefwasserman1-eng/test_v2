@@ -1,21 +1,26 @@
 import os
 import json
 import yaml
-import google.generativeai as genai
+import time
+from google import genai
+from google.genai import types
 from dotenv import load_dotenv
+from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 
 # טעינת משתני סביבה
 load_dotenv()
-genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
+
+# הגדרת הלקוח החדש
+client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 
 # טעינת הגדרות
 with open("config.yaml", "r", encoding="utf-8") as f: config = yaml.safe_load(f)
 with open(config["paths"]["shots_board"], "r", encoding="utf-8") as f: shots = json.load(f)
 
-# שליפת מודל ג'ימיני מהקונפיג (עם גיבוי למקרה חרום)
-GEMINI_MODEL_NAME = config.get("models", {}).get("gemini", "gemini-3-flash")
+# שימוש במודל העדכני (אם לא מוגדר בקונפיג)
+GEMINI_MODEL_NAME = config.get("models", {}).get("gemini", "gemini-3-flash-preview")
 
-# --- חוקי הברזל (צניעות + לוגיקת וידאו) ---
+# --- חוקי הברזל ---
 TZNIUT_RULES = """
 1. MODESTY (TZNIUT):
    - Sleeves must cover elbows (Long sleeves).
@@ -33,13 +38,21 @@ VIDEO_LOGIC_RULES = """
    - **CRITICAL:** If the prompt describes the *result* (e.g., "Lit candle"), REWRITE it to be the *start* (e.g., "Unlit candle").
 """
 
+# --- פונקציית עזר מוגנת (Wrapper) ---
+# אם נכשלים בגלל עומס - מחכים 20 שניות ומנסים שוב, בזמן עולה
+@retry(stop=stop_after_attempt(5), wait=wait_exponential(multiplier=1, min=20, max=120))
+def call_gemini_safe(model, contents):
+    return client.models.generate_content(
+        model=model,
+        contents=contents
+    )
+
 def inspect_prompt(shot_id):
     shot = shots.get(shot_id)
     if not shot: 
         print(f"❌ Shot {shot_id} not found.")
         return
     
-    # בדיקה שיש קובץ פרומפט
     prompt_path = shot["stills"]["prompt_file"]
     if not os.path.exists(prompt_path):
         print(f"⚠️ Prompt file missing for {shot_id}")
@@ -48,7 +61,6 @@ def inspect_prompt(shot_id):
     with open(prompt_path, "r", encoding="utf-8") as f:
         current_prompt = f.read()
 
-    # שליפת הבריף
     visual_brief = shot['brief']['visual']
     motion_brief = shot['brief']['motion']
     constraints = json.dumps(shot.get('constraints', {}))
@@ -56,9 +68,6 @@ def inspect_prompt(shot_id):
     print(f"🕵️ Inspecting prompt for {shot_id} using {GEMINI_MODEL_NAME}...")
     
     try:
-        # שימוש במודל המעודכן מהקונפיג
-        model = genai.GenerativeModel(GEMINI_MODEL_NAME)
-        
         sys_prompt = f"""
         ROLE: Production Supervisor & Prompt Fixer.
         YOUR TASK: Review and Fix the Flux Image Prompt based on the Rules below.
@@ -76,24 +85,23 @@ def inspect_prompt(shot_id):
         
         --- INSTRUCTIONS ---
         - If the prompt violates Modesty -> FIX IT.
-        - If the prompt violates T=0 Logic (shows the result instead of start) -> FIX IT.
-        - If the prompt is good -> Output it as is (you can polish quality keywords).
+        - If the prompt violates T=0 Logic -> FIX IT.
+        - If the prompt is good -> Output it as is.
         
         OUTPUT ONLY THE FINAL RAW PROMPT TEXT. NO EXPLANATIONS.
         """
         
-        response = model.generate_content(f"{sys_prompt}\n\nINPUT PROMPT:\n{current_prompt}")
+        # שימוש בפונקציה המוגנת במקום קריאה ישירה
+        response = call_gemini_safe(GEMINI_MODEL_NAME, f"{sys_prompt}\n\nINPUT PROMPT:\n{current_prompt}")
+
         corrected_prompt = response.text.strip()
         
-        # שמירת התיקון
         with open(prompt_path, "w", encoding="utf-8") as f:
             f.write(corrected_prompt)
             
-        # עדכון סטטוס
         shot["stills"]["status"] = "APPROVED"
-        shot["stills"]["inspector_feedback"] = f"Checked by {GEMINI_MODEL_NAME} (Modesty + T=0 Logic)"
+        shot["stills"]["inspector_feedback"] = f"Checked by {GEMINI_MODEL_NAME}"
         
-        # שמירה ל-JSON
         with open(config["paths"]["shots_board"], "w", encoding="utf-8") as f:
             json.dump(shots, f, indent=4, ensure_ascii=False)
             
@@ -101,7 +109,6 @@ def inspect_prompt(shot_id):
         
     except Exception as e:
         print(f"❌ Error inspecting {shot_id}: {e}")
-        # במקרה של שגיאה (למשל המודל חדש מידי למפתח שלך), אפשר להוסיף כאן לוגיקת Fallback
 
 if __name__ == "__main__":
     user_input = input("Enter Shot ID (or press Enter to inspect ALL pending prompts): ").strip()
@@ -114,6 +121,9 @@ if __name__ == "__main__":
             if data["stills"]["status"] == "PROMPT_READY":
                 inspect_prompt(sid)
                 count += 1
+                # המתנה מנומסת בין בקשות כדי לא להרגיז את ה-API
+                print("⏳ Cooling down for 5 seconds...")
+                time.sleep(5)
         
         if count == 0:
             print("🎉 No prompts waiting for inspection.")
