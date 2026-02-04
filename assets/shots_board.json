@@ -15,8 +15,8 @@
             "prompt_file": "prompts/stills/shot_001.txt",
             "image_path": "production/images\\SHOT_001.jpg",
             "version": 0,
-            "inspector_feedback": "Checked by gemini-3-flash-preview",
-            "feedback": "לא רואים פה את מירי (אולי מבחינת הסיפור זה הגיוני, אבל אם בהמשך השוט הזה מירי אמורה \nלהופיע אז\n Kling\n לא ידע איך היא נראת)"
+            "inspector_feedback": "Manually Fixed via Script (Mix Strategy)",
+            "feedback": "הגחלים נראים מרחפים, האש נראת \"מנותקת\" ולא שורפת את העצים"
         },
         "video": {
             "status": "PENDING",
@@ -37,11 +37,12 @@
             "lighting_type": "FIRE_GLOW"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "REJECTED",
             "prompt_file": "prompts/stills/shot_002.txt",
             "image_path": "production/images\\SHOT_002.jpg",
             "version": 0,
-            "inspector_feedback": "Checked by gemini-3-flash-preview"
+            "inspector_feedback": "Checked by gemini-3-flash-preview",
+            "feedback": "זה לא נראה שהיא \"תופסת\" את העששית, זה נראה שהעששית מרחפת"
         },
         "video": {
             "status": "READY_FOR_PROMPT",
@@ -66,8 +67,8 @@
             "prompt_file": "prompts/stills/shot_003.txt",
             "image_path": "production/images\\SHOT_003.jpg",
             "version": 0,
-            "inspector_feedback": "Checked by gemini-3-flash-preview",
-            "feedback": "גם כאן, לא רואים את הפנים של מירי, ואם בהמשך השוט אמורים לראות את הפנים שלה תהיה את אותה בעיה כמו בשוט 1"
+            "inspector_feedback": "Manually Fixed via Script (Mix Strategy)",
+            "feedback": "צמחה לה יד נוספת"
         },
         "video": {
             "status": "PENDING",
@@ -88,11 +89,11 @@
             "lighting_type": "FIRE_GLOW"
         },
         "stills": {
-            "status": "REJECTED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_004.txt",
             "image_path": "production/images\\SHOT_004.jpg",
             "version": 0,
-            "inspector_feedback": "Checked by gemini-3-flash-preview",
+            "inspector_feedback": "Manually Fixed via Script (Mix Strategy)",
             "feedback": "גם כאן, לא רואים את הפנים של מירי, ואם בהמשך השוט אמורים לראות את הפנים שלה תהיה את אותה בעיה כמו בשוט 1"
         },
         "video": {
@@ -114,7 +115,7 @@
             "lighting_type": "FIRE_GLOW"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_005.txt",
             "image_path": "production/images\\SHOT_005.jpg",
             "version": 0,
@@ -139,11 +140,11 @@
             "lighting_type": "FIRE_GLOW"
         },
         "stills": {
-            "status": "REJECTED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_006.txt",
             "image_path": "production/images\\SHOT_006.jpg",
             "version": 0,
-            "inspector_feedback": "Checked by gemini-3-flash-preview",
+            "inspector_feedback": "Manually Fixed via Script (Mix Strategy)",
             "feedback": "היא נראת קצת \"מרחפת\" על הכיסא השאלה היא איך הוידאו יתמודד עם זה"
         },
         "video": {
@@ -165,11 +166,11 @@
             "lighting_type": "FIRE_GLOW"
         },
         "stills": {
-            "status": "REJECTED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_007.txt",
             "image_path": "production/images\\SHOT_007.jpg",
             "version": 0,
-            "inspector_feedback": "Checked by gemini-3-flash-preview",
+            "inspector_feedback": "Manually Fixed via Script (Mix Strategy)",
             "feedback": "גם כאן לא רואים את מירי (אותה בעיה כמו שוט 1)"
         },
         "video": {
@@ -403,9 +404,9 @@
             "mood_color": "COLD_BLUE"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_016.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_016.jpg",
             "version": 0,
             "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
@@ -430,9 +431,9 @@
             "mood_color": "COLD_BLUE"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_017.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_017.jpg",
             "version": 0,
             "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
@@ -457,9 +458,9 @@
             "mood_color": "COLD_BLUE"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_018.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_018.jpg",
             "version": 0,
             "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
@@ -484,9 +485,9 @@
             "mood_color": "COLD_BLUE"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_019.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_019.jpg",
             "version": 0,
             "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
@@ -511,9 +512,9 @@
             "mood_color": "COLD_BLUE"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_020.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_020.jpg",
             "version": 0,
             "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
@@ -536,9 +537,9 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_021.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_021.jpg",
             "version": 0,
             "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
@@ -561,9 +562,9 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_022.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_022.jpg",
             "version": 0,
             "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
@@ -586,9 +587,9 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_023.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_023.jpg",
             "version": 0,
             "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
@@ -611,9 +612,9 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_024.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_024.jpg",
             "version": 0,
             "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
@@ -636,9 +637,9 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_025.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_025.jpg",
             "version": 0,
             "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
@@ -661,9 +662,9 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_026.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_026.jpg",
             "version": 0,
             "inspector_feedback": "Checked by gemini-3-flash-preview"
         },
@@ -686,9 +687,9 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_027.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_027.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -711,9 +712,9 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_028.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_028.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -736,9 +737,9 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_029.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_029.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -761,9 +762,9 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_030.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_030.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -788,9 +789,9 @@
             "eye_lock": "FIXED_ON_LIGHT"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_031.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_031.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -815,9 +816,9 @@
             "eye_lock": "FIXED_ON_LIGHT"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_032.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_032.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -842,9 +843,9 @@
             "eye_lock": "FIXED_ON_LIGHT"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_033.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_033.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -869,9 +870,9 @@
             "eye_lock": "FIXED_ON_LIGHT"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_034.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_034.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -896,9 +897,9 @@
             "eye_lock": "FIXED_ON_LIGHT"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_035.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_035.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -923,9 +924,9 @@
             "eye_lock": "FIXED_ON_LIGHT"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_036.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_036.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -950,9 +951,9 @@
             "eye_lock": "FIXED_ON_LIGHT"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_037.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_037.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -977,9 +978,9 @@
             "eye_lock": "FIXED_ON_LIGHT"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_038.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_038.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -1004,9 +1005,9 @@
             "eye_lock": "FIXED_ON_LIGHT"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_039.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_039.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -1031,9 +1032,9 @@
             "eye_lock": "FIXED_ON_LIGHT"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_040.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_040.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -1056,9 +1057,9 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_041.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_041.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -1081,9 +1082,9 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_042.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_042.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -1106,9 +1107,9 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_043.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_043.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -1131,9 +1132,9 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_044.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_044.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -1156,9 +1157,9 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_045.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_045.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -1181,9 +1182,9 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_046.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_046.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -1206,9 +1207,9 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_047.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_047.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -1231,9 +1232,9 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_048.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_048.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -1256,9 +1257,9 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_049.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_049.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -1281,9 +1282,9 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_050.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_050.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -1307,9 +1308,9 @@
             "framing_limit": "FULL_BODY"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_051.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_051.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -1333,9 +1334,9 @@
             "framing_limit": "FULL_BODY"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_052.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_052.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -1359,9 +1360,9 @@
             "framing_limit": "FULL_BODY"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_053.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_053.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -1385,9 +1386,9 @@
             "framing_limit": "FULL_BODY"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_054.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_054.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -1411,9 +1412,9 @@
             "framing_limit": "FULL_BODY"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_055.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_055.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -1437,9 +1438,9 @@
             "framing_limit": "FULL_BODY"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_056.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_056.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -1463,9 +1464,9 @@
             "framing_limit": "FULL_BODY"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_057.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_057.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -1489,9 +1490,9 @@
             "framing_limit": "FULL_BODY"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_058.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_058.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -1515,9 +1516,9 @@
             "framing_limit": "FULL_BODY"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_059.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_059.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },
@@ -1541,9 +1542,9 @@
             "framing_limit": "FULL_BODY"
         },
         "stills": {
-            "status": "APPROVED",
+            "status": "IMAGE_READY",
             "prompt_file": "prompts/stills/shot_060.txt",
-            "image_path": "",
+            "image_path": "production/images\\SHOT_060.jpg",
             "version": 0,
             "inspector_feedback": "Checked by GenAI (Parallel)"
         },

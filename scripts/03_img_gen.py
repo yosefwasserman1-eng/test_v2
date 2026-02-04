@@ -121,9 +121,8 @@ def process_shot(shot_id):
     if not shot: return {"id": shot_id, "status": "SKIPPED", "msg": "Not found"}
     if shot["stills"]["status"] != "APPROVED": return {"id": shot_id, "status": "SKIPPED", "msg": "Not APPROVED"}
 
-    # בדיקה אם קיים (אופציונלי: כרגע דורס אם קיים כדי לאפשר תיקונים)
-    # if os.path.exists(os.path.join(config["paths"]["images_output"], f"{shot_id}.jpg")):
-    #    return {"id": shot_id, "status": "SKIPPED", "msg": "Image exists"}
+    if os.path.exists(os.path.join(config["paths"]["images_output"], f"{shot_id}.jpg")):
+       return {"id": shot_id, "status": "SKIPPED", "msg": "Image exists"}
 
     prompt_path = shot["stills"]["prompt_file"]
     if not os.path.exists(prompt_path): return None
