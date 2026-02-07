@@ -15,7 +15,7 @@
             "prompt_file": "prompts/stills/shot_001.txt",
             "image_path": "production/images\\SHOT_001.jpg",
             "version": 0,
-            "inspector_feedback": "Manually Fixed via Script (Mix Strategy)",
+            "inspector_feedback": "זה לא נראה שהעצים בוערים, אלא שהם \"מונחים\" על האש",
             "feedback": "הגחלים נראים מרחפים, האש נראת \"מנותקת\" ולא שורפת את העצים"
         },
         "video": {
@@ -41,7 +41,7 @@
             "prompt_file": "prompts/stills/shot_002.txt",
             "image_path": "production/images\\SHOT_002.jpg",
             "version": 0,
-            "inspector_feedback": "Checked by gemini-3-flash-preview",
+            "inspector_feedback": "זה לא כל כך נראה בית בכפר עתיק",
             "feedback": "זה לא נראה שהיא \"תופסת\" את העששית, זה נראה שהעששית מרחפת"
         },
         "video": {
@@ -63,7 +63,7 @@
             "lighting_type": "FIRE_GLOW"
         },
         "stills": {
-            "status": "REJECTED",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_003.txt",
             "image_path": "production/images\\SHOT_003.jpg",
             "version": 0,
@@ -89,12 +89,12 @@
             "lighting_type": "FIRE_GLOW"
         },
         "stills": {
-            "status": "IMAGE_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_004.txt",
             "image_path": "production/images\\SHOT_004.jpg",
             "version": 0,
             "inspector_feedback": "Manually Fixed via Script (Mix Strategy)",
-            "feedback": "גם כאן, לא רואים את הפנים של מירי, ואם בהמשך השוט אמורים לראות את הפנים שלה תהיה את אותה בעיה כמו בשוט 1"
+            "feedback": "הפה פתוח, היד מגיעה מלמעלה (מוזר)"
         },
         "video": {
             "status": "PENDING",
@@ -115,7 +115,7 @@
             "lighting_type": "FIRE_GLOW"
         },
         "stills": {
-            "status": "IMAGE_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_005.txt",
             "image_path": "production/images\\SHOT_005.jpg",
             "version": 0,
@@ -140,12 +140,12 @@
             "lighting_type": "FIRE_GLOW"
         },
         "stills": {
-            "status": "IMAGE_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_006.txt",
             "image_path": "production/images\\SHOT_006.jpg",
             "version": 0,
             "inspector_feedback": "Manually Fixed via Script (Mix Strategy)",
-            "feedback": "היא נראת קצת \"מרחפת\" על הכיסא השאלה היא איך הוידאו יתמודד עם זה"
+            "feedback": "לוקיישן מודרני, לא תואם לסוטים הקודמים"
         },
         "video": {
             "status": "PENDING",
@@ -166,7 +166,7 @@
             "lighting_type": "FIRE_GLOW"
         },
         "stills": {
-            "status": "IMAGE_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_007.txt",
             "image_path": "production/images\\SHOT_007.jpg",
             "version": 0,
@@ -174,7 +174,7 @@
             "feedback": "גם כאן לא רואים את מירי (אותה בעיה כמו שוט 1)"
         },
         "video": {
-            "status": "PENDING",
+            "status": "READY_FOR_PROMPT",
             "prompt_file": "prompts/video/shot_007.txt",
             "video_path": "",
             "version": 0
@@ -192,11 +192,12 @@
             "lighting_type": "FIRE_GLOW"
         },
         "stills": {
-            "status": "IMAGE_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_008.txt",
             "image_path": "production/images\\SHOT_008.jpg",
             "version": 0,
-            "inspector_feedback": "Checked by gemini-3-flash-preview"
+            "inspector_feedback": "Checked by gemini-3-flash-preview",
+            "feedback": "המנורה גדולה מידי, ומהדלת רואים גחלים"
         },
         "video": {
             "status": "PENDING",
@@ -217,11 +218,12 @@
             "lighting_type": "FIRE_GLOW"
         },
         "stills": {
-            "status": "IMAGE_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_009.txt",
             "image_path": "production/images\\SHOT_009.jpg",
             "version": 0,
-            "inspector_feedback": "Checked by gemini-3-flash-preview"
+            "inspector_feedback": "Checked by gemini-3-flash-preview",
+            "feedback": "זה לא אמור להיות ליל סופה?"
         },
         "video": {
             "status": "PENDING",
@@ -242,11 +244,12 @@
             "lighting_type": "FIRE_GLOW"
         },
         "stills": {
-            "status": "IMAGE_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_010.txt",
             "image_path": "production/images\\SHOT_010.jpg",
             "version": 0,
-            "inspector_feedback": "Checked by gemini-3-flash-preview"
+            "inspector_feedback": "Checked by gemini-3-flash-preview",
+            "feedback": "זה לא נראה מירי"
         },
         "video": {
             "status": "PENDING",
