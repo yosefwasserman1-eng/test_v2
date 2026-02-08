@@ -11,11 +11,11 @@
             "lighting_type": "FIRE_GLOW"
         },
         "stills": {
-            "status": "REJECTED",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_001.txt",
             "image_path": "production/images\\SHOT_001.jpg",
             "version": 0,
-            "inspector_feedback": "זה לא נראה שהעצים בוערים, אלא שהם \"מונחים\" על האש",
+            "inspector_feedback": "Fixed via Bulk Script (Identity & Physics)",
             "feedback": "הגחלים נראים מרחפים, האש נראת \"מנותקת\" ולא שורפת את העצים"
         },
         "video": {
@@ -67,7 +67,7 @@
             "prompt_file": "prompts/stills/shot_003.txt",
             "image_path": "production/images\\SHOT_003.jpg",
             "version": 0,
-            "inspector_feedback": "Manually Fixed via Script (Mix Strategy)",
+            "inspector_feedback": "Fixed via Bulk Script (Identity & Physics)",
             "feedback": "צמחה לה יד נוספת"
         },
         "video": {
@@ -93,7 +93,7 @@
             "prompt_file": "prompts/stills/shot_004.txt",
             "image_path": "production/images\\SHOT_004.jpg",
             "version": 0,
-            "inspector_feedback": "Manually Fixed via Script (Mix Strategy)",
+            "inspector_feedback": "Fixed via Bulk Script (Identity & Physics)",
             "feedback": "הפה פתוח, היד מגיעה מלמעלה (מוזר)"
         },
         "video": {
@@ -144,7 +144,7 @@
             "prompt_file": "prompts/stills/shot_006.txt",
             "image_path": "production/images\\SHOT_006.jpg",
             "version": 0,
-            "inspector_feedback": "Manually Fixed via Script (Mix Strategy)",
+            "inspector_feedback": "Fixed via Bulk Script (Identity & Physics)",
             "feedback": "לוקיישן מודרני, לא תואם לסוטים הקודמים"
         },
         "video": {
@@ -248,7 +248,7 @@
             "prompt_file": "prompts/stills/shot_010.txt",
             "image_path": "production/images\\SHOT_010.jpg",
             "version": 0,
-            "inspector_feedback": "Checked by gemini-3-flash-preview",
+            "inspector_feedback": "Fixed via Bulk Script (Identity & Physics)",
             "feedback": "זה לא נראה מירי"
         },
         "video": {
@@ -272,7 +272,7 @@
             "mood_color": "COLD_BLUE"
         },
         "stills": {
-            "status": "IMAGE_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_011.txt",
             "image_path": "production/images\\SHOT_011.jpg",
             "version": 0,
@@ -299,11 +299,11 @@
             "mood_color": "COLD_BLUE"
         },
         "stills": {
-            "status": "IMAGE_READY",
+            "status": "REJECTED",
             "prompt_file": "prompts/stills/shot_012.txt",
             "image_path": "production/images\\SHOT_012.jpg",
             "version": 0,
-            "inspector_feedback": "Checked by gemini-3-flash-preview"
+            "inspector_feedback": "לא נראה כמוה"
         },
         "video": {
             "status": "PENDING",
@@ -326,7 +326,7 @@
             "mood_color": "COLD_BLUE"
         },
         "stills": {
-            "status": "IMAGE_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_013.txt",
             "image_path": "production/images\\SHOT_013.jpg",
             "version": 0,
@@ -353,7 +353,7 @@
             "mood_color": "COLD_BLUE"
         },
         "stills": {
-            "status": "IMAGE_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_014.txt",
             "image_path": "production/images\\SHOT_014.jpg",
             "version": 0,
@@ -380,11 +380,11 @@
             "mood_color": "COLD_BLUE"
         },
         "stills": {
-            "status": "IMAGE_READY",
+            "status": "REJECTED",
             "prompt_file": "prompts/stills/shot_015.txt",
             "image_path": "production/images\\SHOT_015.jpg",
             "version": 0,
-            "inspector_feedback": "Checked by gemini-3-flash-preview"
+            "inspector_feedback": "לא נרה עששית"
         },
         "video": {
             "status": "PENDING",
@@ -407,7 +407,7 @@
             "mood_color": "COLD_BLUE"
         },
         "stills": {
-            "status": "IMAGE_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_016.txt",
             "image_path": "production/images\\SHOT_016.jpg",
             "version": 0,
@@ -434,7 +434,7 @@
             "mood_color": "COLD_BLUE"
         },
         "stills": {
-            "status": "IMAGE_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_017.txt",
             "image_path": "production/images\\SHOT_017.jpg",
             "version": 0,
@@ -461,7 +461,7 @@
             "mood_color": "COLD_BLUE"
         },
         "stills": {
-            "status": "IMAGE_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_018.txt",
             "image_path": "production/images\\SHOT_018.jpg",
             "version": 0,
@@ -488,7 +488,7 @@
             "mood_color": "COLD_BLUE"
         },
         "stills": {
-            "status": "IMAGE_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_019.txt",
             "image_path": "production/images\\SHOT_019.jpg",
             "version": 0,
@@ -515,7 +515,7 @@
             "mood_color": "COLD_BLUE"
         },
         "stills": {
-            "status": "IMAGE_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_020.txt",
             "image_path": "production/images\\SHOT_020.jpg",
             "version": 0,
@@ -540,7 +540,7 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "IMAGE_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_021.txt",
             "image_path": "production/images\\SHOT_021.jpg",
             "version": 0,
@@ -565,7 +565,7 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "IMAGE_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_022.txt",
             "image_path": "production/images\\SHOT_022.jpg",
             "version": 0,
@@ -590,7 +590,7 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "IMAGE_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_023.txt",
             "image_path": "production/images\\SHOT_023.jpg",
             "version": 0,
@@ -615,7 +615,7 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "IMAGE_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_024.txt",
             "image_path": "production/images\\SHOT_024.jpg",
             "version": 0,
@@ -640,7 +640,7 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "IMAGE_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_025.txt",
             "image_path": "production/images\\SHOT_025.jpg",
             "version": 0,
@@ -665,7 +665,7 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "IMAGE_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_026.txt",
             "image_path": "production/images\\SHOT_026.jpg",
             "version": 0,
@@ -690,7 +690,7 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "IMAGE_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_027.txt",
             "image_path": "production/images\\SHOT_027.jpg",
             "version": 0,
@@ -715,7 +715,7 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "IMAGE_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_028.txt",
             "image_path": "production/images\\SHOT_028.jpg",
             "version": 0,
@@ -740,7 +740,7 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "IMAGE_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_029.txt",
             "image_path": "production/images\\SHOT_029.jpg",
             "version": 0,
@@ -765,7 +765,7 @@
             "lighting_type": "CHIAROSCURO"
         },
         "stills": {
-            "status": "IMAGE_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_030.txt",
             "image_path": "production/images\\SHOT_030.jpg",
             "version": 0,
@@ -792,7 +792,7 @@
             "eye_lock": "FIXED_ON_LIGHT"
         },
         "stills": {
-            "status": "IMAGE_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_031.txt",
             "image_path": "production/images\\SHOT_031.jpg",
             "version": 0,
@@ -819,7 +819,7 @@
             "eye_lock": "FIXED_ON_LIGHT"
         },
         "stills": {
-            "status": "IMAGE_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_032.txt",
             "image_path": "production/images\\SHOT_032.jpg",
             "version": 0,
@@ -846,7 +846,7 @@
             "eye_lock": "FIXED_ON_LIGHT"
         },
         "stills": {
-            "status": "IMAGE_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_033.txt",
             "image_path": "production/images\\SHOT_033.jpg",
             "version": 0,
@@ -873,7 +873,7 @@
             "eye_lock": "FIXED_ON_LIGHT"
         },
         "stills": {
-            "status": "IMAGE_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_034.txt",
             "image_path": "production/images\\SHOT_034.jpg",
             "version": 0,
@@ -900,7 +900,7 @@
             "eye_lock": "FIXED_ON_LIGHT"
         },
         "stills": {
-            "status": "IMAGE_READY",
+            "status": "APPROVED",
             "prompt_file": "prompts/stills/shot_035.txt",
             "image_path": "production/images\\SHOT_035.jpg",
             "version": 0,
