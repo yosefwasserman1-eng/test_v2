@@ -11,3 +11,4 @@ tenacity
 fastapi
 uvicorn
 python-multipart
+chainlit

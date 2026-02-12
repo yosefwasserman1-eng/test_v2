@@ -4,11 +4,17 @@ import threading
 import time
 import os
 import sys
+import logging
+from pathlib import Path
+from typing import List, Optional, Dict, Any
+
+# Configure logging
+logger = logging.getLogger(__name__)
 
 # Timeout in seconds
 DEFAULT_TIMEOUT = 600  # 10 minutes for long generations
 
-def run_script(script_name, args=None, timeout=DEFAULT_TIMEOUT):
+def run_script(script_name: str, args: Optional[List[str]] = None, timeout: int = DEFAULT_TIMEOUT) -> Dict[str, Any]:
     """
     Executes a script from the 'scripts' directory.
     Captures stdout/stderr and handles timeouts.
@@ -16,13 +22,18 @@ def run_script(script_name, args=None, timeout=DEFAULT_TIMEOUT):
     if args is None:
         args = []
     
-    script_path = os.path.abspath(f"scripts/{script_name}")
-    if not os.path.exists(script_path):
+    # Use independent path resolution relative to project root (assuming wrapper is in tools/)
+    # Or rely on CWD being project root. Let's rely on CWD but verify.
+    project_root = Path(os.getcwd())
+    script_path = project_root / "scripts" / script_name
+    
+    if not script_path.exists():
+        logger.error(f"Script not found at: {script_path}")
         return {"success": False, "output": f"Script not found: {script_name}", "error": "File missing"}
 
-    cmd = [sys.executable, script_path] + args
+    cmd = [sys.executable, str(script_path)] + args
     
-    print(f"🔧 Wrapper: Executing {' '.join(cmd)}")
+    logger.info(f"🔧 Wrapper: Executing {' '.join(cmd)}")
     
     try:
         # Using Popen to capture realtime output if needed, but for now run() is safer for atomic execution
@@ -31,7 +42,7 @@ def run_script(script_name, args=None, timeout=DEFAULT_TIMEOUT):
             capture_output=True,
             text=True,
             timeout=timeout,
-            cwd=os.getcwd()  # Ensure it runs from project root
+            cwd=str(project_root)  # Ensure it runs from project root
         )
         
         success = result.returncode == 0
@@ -46,12 +57,14 @@ def run_script(script_name, args=None, timeout=DEFAULT_TIMEOUT):
         }
         
     except subprocess.TimeoutExpired:
+        logger.error(f"Script {script_name} timed out after {timeout}s")
         return {
             "success": False,
             "output": f"Execution timed out after {timeout} seconds.",
             "error": "Timeout"
         }
     except Exception as e:
+        logger.exception(f"Script execution failed: {e}")
         return {
             "success": False,
             "output": f"Execution failed: {str(e)}",
