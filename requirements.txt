@@ -8,3 +8,6 @@ tqdm
 colorama
 streamlit
 tenacity
+fastapi
+uvicorn
+python-multipart

@@ -118,7 +118,12 @@ def main():
     print("--- Flux Image Generator (FORCE REGENERATE MODE) ---")
     if GLOBAL_LORA_CONFIG: print(f"🦄 LoRA Active")
     
-    user_input = input("Enter Range (e.g., 1-5), or ENTER for ALL: ").strip()
+    import sys
+    if len(sys.argv) > 1:
+        user_input = sys.argv[1]
+        print(f"🤖 Auto-Input from CLI: {user_input}")
+    else:
+        user_input = input("Enter Range (e.g., 1-5), or ENTER for ALL: ").strip()
     
     target_shots = []
     if not user_input:
