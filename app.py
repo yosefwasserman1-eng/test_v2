@@ -17,6 +17,35 @@ chat_service = ChatService()
 
 @cl.on_chat_start
 async def start():
+    # --- הזרקת CSS לעברית (RTL) ---
+    await cl.html("""
+    <style>
+        /* הופך את כל ההודעות לימין לשמאל */
+        .cl-message-content, .msg-content {
+            direction: rtl;
+            text-align: right;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        /* הופך את תיבת הקלט (איפה שאתה מקליד) */
+        #chat-input, textarea {
+            direction: rtl;
+            text-align: right;
+        }
+
+        /* שומר על קוד באנגלית (משמאל לימין) כדי שלא ישבר */
+        pre, code, .code-block {
+            direction: ltr !important;
+            text-align: left !important;
+        }
+        
+        /* כותרות ורשימות */
+        ul, ol, h1, h2, h3, h4, h5, h6 {
+            direction: rtl;
+            text-align: right;
+        }
+    </style>
+    """)
     # Welcome Message
     await cl.Message(
         content="🎬 **Miri Production System Online!**\n\nI am ready for your commands. Try:\n* 'Generate Shot 5'\n* 'What is the project status?'\n* 'Check prompt for Shot 10'"
